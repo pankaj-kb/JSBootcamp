@@ -1,2 +1,3 @@
-# JSBootcamp
-This files and assignments are related to Full Stack Development Course 2.0 from Ineuron.ai
+# Full Stack JavaScript Developer Bootcamp
+
+## all the codes and files are part of assignments for the full stack javascript developer bootcamp by ineuron.ai
