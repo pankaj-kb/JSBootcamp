@@ -25,9 +25,11 @@ color: #50DBB4;
 }
 ```
 
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1668519449058/miXeD_7Ob.png align="left")
+
 here "*" selects all the elements in the document.
 
-## idividual selector
+## individual selector
 
 now we can say we are really starting with selectors as we are going to style an specific element. the individual
 selector only styles an specific element.
@@ -39,6 +41,8 @@ h1 {
 color: #FF6666;
 }
 ```
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1668519484649/56zcSXK0Q.png align="left")
 
 ## class and id selector
 
@@ -53,6 +57,8 @@ color: #03203C;
 }
 ```
 
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1668519501309/xVosUSR8a.png align="left")
+
 now the id selector
 
 ```css
@@ -60,6 +66,8 @@ now the id selector
 color: #E8BD0D;
 }
 ```
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1668519585173/pRoGjl-kY.png align="left")
 
 ## and selector
 
@@ -73,6 +81,8 @@ li.first.top{
       }
 ```
 
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1668519599327/W3PebWXQ-.png align="left")
+
 ## combined selector
 
 the combined selector also takes two classes or id or elements and styles them accordingly. just separate the targets with ",".
@@ -84,6 +94,7 @@ second, third {
 }
 ```
 
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1668519086442/5JhzOs0bt.png align="left")
 ## inside an element
 
 what if we want to target something inside an element ?
@@ -97,6 +108,8 @@ div ol li {
 }
 ```
 
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1668519096983/X62buVul2.png align="left")
+
 ## direct child
 
 now we want to target an element which lies inside another element, here we use ">" greater then sign to target children inside the element.
@@ -106,6 +119,8 @@ div > li > p {
         background-color: #7667e4;
       }
 ```
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1668519123642/Hu020VUX5f.png align="left")
 
 ## sibling selector
 
@@ -119,8 +134,19 @@ here we can use "~" or "+" sign to indicate which sibling element we wanna targe
 
 ```
 
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1668519835284/ssQkP5FeA.png align="left")
+[Code for the Selectors](https://github.com/pankaj-kb/JSBootcamp/blob/00ff9b74ad7e871dbc415029f33621aea9031ffe/02%20CSS/12%20Nov%2022/Selectors.html)
+
 # Pseudo-Selectors
 
 this are the selectors which add the styles to the elements when there is event or some action happened to that element, it could be an mouse hover over the button or click on link.
 
 ## before selector
+
+![before selector.gif](https://cdn.hashnode.com/res/hashnode/image/upload/v1668520317137/88xJ6k0l1.gif align="left")
+
+## after selector
+
+![after selector.gif](https://cdn.hashnode.com/res/hashnode/image/upload/v1668520340330/ra6SrNC9Z.gif align="left")
+
+[Code for Pseudo-Selectors](https://github.com/pankaj-kb/JSBootcamp/blob/00ff9b74ad7e871dbc415029f33621aea9031ffe/02%20CSS/12%20Nov%2022/beforeAfter.html)
