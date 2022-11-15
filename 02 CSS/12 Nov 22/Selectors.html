@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>universal</title>
+    <style>
+        #paragraph-element {
+            color: #E8BD0D;
+        }
+
+        li.first.top {
+            background-color: #A593E0;
+            color: #E71D36;
+        }
+
+        li,
+        h2 {
+            background-color: #2E294E;
+        }
+
+        div ol li {
+            background-color: #cbe86b;
+        }
+
+        div>li>p {
+            background-color: #850b74e8;
+        }
+
+        .sibling+p {
+            background-color: #bd1550;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="heading-element">
+        <h1>this is heading</h1>
+        <h1>this is another heading with same class</h1>
+    </div>
+    <div class="heading2-element">
+        <h2> this is h2 heading.</h2>
+    </div>
+    <div id="paragraph-element">
+        <p>this is an paragraph</p>
+        <p>this is also an paragraph element with same id</p>
+    </div>
+    <ul>
+        <li class="first top">this is A</li>
+        <li class="second">this is B</li>
+        <li class="third">this is C</li>
+        <li>this is D</li>
+    </ul>
+
+    <div>
+        <ol>
+            <li>this is 1</li>
+            <li>this is 2</li>
+            <li>this is 3</li>
+            <li>this is 4</li>
+            <li>this is 5</li>
+        </ol>
+    </div>
+
+    <div>
+        <li>
+            <p>this is paragraph inside list</p>
+        </li>
+    </div>
+
+    <section>
+        <p class="sibling">this is paragraph with class sibling</p>
+        <p>this is paragraph next to it and without class</p>
+    </section>
+
+</body>
+
+</html>
