@@ -25,7 +25,7 @@ color: #50DBB4;
 }
 ```
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1668519449058/miXeD_7Ob.png align="left")
+![image.png](<https://cdn.hashnode.com/res/hashnode/image/upload/v1668519449058/miXeD_7Ob.png> align="left")
 
 here "*" selects all the elements in the document.
 
@@ -42,7 +42,7 @@ color: #FF6666;
 }
 ```
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1668519484649/56zcSXK0Q.png align="left")
+![image.png](<https://cdn.hashnode.com/res/hashnode/image/upload/v1668519484649/56zcSXK0Q.png> align="left")
 
 ## class and id selector
 
@@ -57,7 +57,7 @@ color: #03203C;
 }
 ```
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1668519501309/xVosUSR8a.png align="left")
+![image.png](<https://cdn.hashnode.com/res/hashnode/image/upload/v1668519501309/xVosUSR8a.png> align="left")
 
 now the id selector
 
@@ -67,7 +67,7 @@ color: #E8BD0D;
 }
 ```
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1668519585173/pRoGjl-kY.png align="left")
+![image.png](<https://cdn.hashnode.com/res/hashnode/image/upload/v1668519585173/pRoGjl-kY.png> align="left")
 
 ## and selector
 
@@ -81,7 +81,7 @@ li.first.top{
       }
 ```
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1668519599327/W3PebWXQ-.png align="left")
+![image.png](<https://cdn.hashnode.com/res/hashnode/image/upload/v1668519599327/W3PebWXQ-.png> align="left")
 
 ## combined selector
 
@@ -94,7 +94,8 @@ second, third {
 }
 ```
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1668519086442/5JhzOs0bt.png align="left")
+![image.png](<https://cdn.hashnode.com/res/hashnode/image/upload/v1668519086442/5JhzOs0bt.png> align="left")
+
 ## inside an element
 
 what if we want to target something inside an element ?
@@ -108,7 +109,7 @@ div ol li {
 }
 ```
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1668519096983/X62buVul2.png align="left")
+![image.png](<https://cdn.hashnode.com/res/hashnode/image/upload/v1668519096983/X62buVul2.png> align="left")
 
 ## direct child
 
@@ -120,7 +121,7 @@ div > li > p {
       }
 ```
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1668519123642/Hu020VUX5f.png align="left")
+![image.png](<https://cdn.hashnode.com/res/hashnode/image/upload/v1668519123642/Hu020VUX5f.png> align="left")
 
 ## sibling selector
 
@@ -134,19 +135,53 @@ here we can use "~" or "+" sign to indicate which sibling element we wanna targe
 
 ```
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1668519835284/ssQkP5FeA.png align="left")
+![image.png](<https://cdn.hashnode.com/res/hashnode/image/upload/v1668519835284/ssQkP5FeA.png> align="left")
 [Code for the Selectors](https://github.com/pankaj-kb/JSBootcamp/blob/00ff9b74ad7e871dbc415029f33621aea9031ffe/02%20CSS/12%20Nov%2022/Selectors.html)
 
 # Pseudo-Selectors
 
-this are the selectors which add the styles to the elements when there is event or some action happened to that element, it could be an mouse hover over the button or click on link.
+this are the selectors which are declared as keyword after the selector with ":" to add the styles on elements when there is event or some action happened to that element, it could be an mouse hover over the button or click on link.
+
+```css
+button:hover {
+  color: blue;
+}
+```
+
+here "button" is selector & and ":hover is a pseduo-selector" which is added to give extra style to the button, here when we will hover over the button it will change it's color to "blue".
 
 ## before selector
 
-![before selector.gif](https://cdn.hashnode.com/res/hashnode/image/upload/v1668520317137/88xJ6k0l1.gif align="left")
+before selector is declared with "::" after an element, here it adds an style before an element.
+
+```css
+.imp-label:hover::before {
+            content: '';
+            display: block;
+            width: 20px;
+            height: 20px;
+            border-radius: 10px;
+            background-color: #EC7357;
+        }
+```
+
+![before selector.gif](<https://cdn.hashnode.com/res/hashnode/image/upload/v1668520317137/88xJ6k0l1.gif> align="left")
 
 ## after selector
 
-![after selector.gif](https://cdn.hashnode.com/res/hashnode/image/upload/v1668520340330/ra6SrNC9Z.gif align="left")
+just like the before selector, after selector also declared with "::", it adds style after the element.
+
+```css
+.imp-label:hover::after {
+            content: '';
+            display: block;
+            width: 20px;
+            height: 20px;
+            border-radius: 10px;
+            background-color: #EC7357;
+        }
+```
+
+![after selector.gif](<https://cdn.hashnode.com/res/hashnode/image/upload/v1668520340330/ra6SrNC9Z.gif> align="left")
 
 [Code for Pseudo-Selectors](https://github.com/pankaj-kb/JSBootcamp/blob/00ff9b74ad7e871dbc415029f33621aea9031ffe/02%20CSS/12%20Nov%2022/beforeAfter.html)
