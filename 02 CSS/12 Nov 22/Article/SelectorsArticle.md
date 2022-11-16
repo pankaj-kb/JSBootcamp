@@ -17,17 +17,15 @@ selectively.
 
 ## universal selector
 
-The universal selector is the same which we saw in above example, which selects all the elements in the html file,
+The universal selector is the same which we saw in above example, which selects all the elements in the html file.
+here "*" selects all the elements in the document.
 
 ```css
 * {
 color: #50DBB4;
 }
 ```
-
-![image.png](<https://cdn.hashnode.com/res/hashnode/image/upload/v1668519449058/miXeD_7Ob.png> align="left")
-
-here "*" selects all the elements in the document.
+![universal-selector](https://cdn.hashnode.com/res/hashnode/image/upload/v1668519449058/miXeD_7Ob.png)
 
 ## individual selector
 
@@ -41,33 +39,30 @@ h1 {
 color: #FF6666;
 }
 ```
-
-![image.png](<https://cdn.hashnode.com/res/hashnode/image/upload/v1668519484649/56zcSXK0Q.png> align="left")
+![individual-selector](https://cdn.hashnode.com/res/hashnode/image/upload/v1668519484649/56zcSXK0Q.png)
 
 ## class and id selector
 
 the class and id selectors are very commonly used in css styling, they target elements with class or id given to them.
 here the class is denoted with "." and id with "#".
 
-first let tackle the class
+###first let tackle the class
 
 ```css
 .heading-element {
 color: #03203C;
 }
 ```
+![class-selector](https://cdn.hashnode.com/res/hashnode/image/upload/v1668519501309/xVosUSR8a.png)
 
-![image.png](<https://cdn.hashnode.com/res/hashnode/image/upload/v1668519501309/xVosUSR8a.png> align="left")
-
-now the id selector
+###now the id selector
 
 ```css
 #paragraph-element {
 color: #E8BD0D;
 }
 ```
-
-![image.png](<https://cdn.hashnode.com/res/hashnode/image/upload/v1668519585173/pRoGjl-kY.png> align="left")
+![id-selector](https://cdn.hashnode.com/res/hashnode/image/upload/v1668519585173/pRoGjl-kY.png)
 
 ## and selector
 
@@ -80,8 +75,7 @@ li.first.top{
         color: #ef9323;
       }
 ```
-
-![image.png](<https://cdn.hashnode.com/res/hashnode/image/upload/v1668519599327/W3PebWXQ-.png> align="left")
+![and-selector](https://cdn.hashnode.com/res/hashnode/image/upload/v1668519599327/W3PebWXQ-.png)
 
 ## combined selector
 
@@ -93,8 +87,7 @@ second, third {
     color: #77919d;
 }
 ```
-
-![image.png](<https://cdn.hashnode.com/res/hashnode/image/upload/v1668519086442/5JhzOs0bt.png> align="left")
+![combined-selector](https://cdn.hashnode.com/res/hashnode/image/upload/v1668519086442/5JhzOs0bt.png)
 
 ## inside an element
 
@@ -108,8 +101,7 @@ div ol li {
     background-color: #cbe86b;
 }
 ```
-
-![image.png](<https://cdn.hashnode.com/res/hashnode/image/upload/v1668519096983/X62buVul2.png> align="left")
+![inside-selector](https://cdn.hashnode.com/res/hashnode/image/upload/v1668519096983/X62buVul2.png)
 
 ## direct child
 
@@ -120,8 +112,7 @@ div > li > p {
         background-color: #7667e4;
       }
 ```
-
-![image.png](<https://cdn.hashnode.com/res/hashnode/image/upload/v1668519123642/Hu020VUX5f.png> align="left")
+![direct-child](https://cdn.hashnode.com/res/hashnode/image/upload/v1668519123642/Hu020VUX5f.png)
 
 ## sibling selector
 
@@ -134,8 +125,8 @@ here we can use "~" or "+" sign to indicate which sibling element we wanna targe
       }
 
 ```
+![sibling-selector](https://cdn.hashnode.com/res/hashnode/image/upload/v1668519835284/ssQkP5FeA.png)
 
-![image.png](<https://cdn.hashnode.com/res/hashnode/image/upload/v1668519835284/ssQkP5FeA.png> align="left")
 [Code for the Selectors](https://github.com/pankaj-kb/JSBootcamp/blob/00ff9b74ad7e871dbc415029f33621aea9031ffe/02%20CSS/12%20Nov%2022/Selectors.html)
 
 # Pseudo-Selectors
@@ -164,8 +155,7 @@ before selector is declared with "::" after an element, here it adds an style be
             background-color: #EC7357;
         }
 ```
-
-![before selector.gif](<https://cdn.hashnode.com/res/hashnode/image/upload/v1668520317137/88xJ6k0l1.gif> align="left")
+![before-selector](https://cdn.hashnode.com/res/hashnode/image/upload/v1668520317137/88xJ6k0l1.gif)
 
 ## after selector
 
@@ -181,7 +171,6 @@ just like the before selector, after selector also declared with "::", it adds s
             background-color: #EC7357;
         }
 ```
-
-![after selector.gif](<https://cdn.hashnode.com/res/hashnode/image/upload/v1668520340330/ra6SrNC9Z.gif> align="left")
+![after-selector](https://cdn.hashnode.com/res/hashnode/image/upload/v1668520340330/ra6SrNC9Z.gif)
 
 [Code for Pseudo-Selectors](https://github.com/pankaj-kb/JSBootcamp/blob/00ff9b74ad7e871dbc415029f33621aea9031ffe/02%20CSS/12%20Nov%2022/beforeAfter.html)
