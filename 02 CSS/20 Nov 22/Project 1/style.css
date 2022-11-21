@@ -4,10 +4,11 @@ body {
 }
 
 .heading-text {
+    margin-left: -60px;
     padding: 20px 200px;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    font-size: 70px;
+    font-size: 75px;
     color: #3C2F60;
 }
 
@@ -17,8 +18,9 @@ span {
 
 .description {
     color: #a59f9f;
-    margin-top: -80px;
-    padding-left: 210px;
+    margin-top: -70px;
+    margin-left: 150px;
+    /* padding-left: 210px; */
     font-weight: 300px;
     inline-size: 400px;
 }
@@ -94,8 +96,9 @@ li.list-item{
 button.nav-button.btn{
     position: relative;
     display: block;
-    margin-left: 200px;
+    margin-left: 150px;
     margin-top: 95px;
+    /* margin-bottom: 100px; */
     padding: 25px 75px;
     border-radius: 10px;
     border: none;
