@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,400;0,800;1,200;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F9F5ED;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-right: 60%;
+    margin-left: 230px;
+}
+
+ul li {
+    list-style-type: none;
+    /* margin-top: 25px; */
+    font-family: 'Fira Sans', sans-serif;
+    /* margin-left: px; */
+    font-weight: 400;
+    font-size: 20px;
+}
+
+ul li :first-child {
+    margin-top: -7px;
+    /* margin-right: 100px; */
+}
+
+nav ul li .nav-buttons {
+    /* background-color: #D5D5D3; */
+    font-family: 'Fira Sans', sans-serif;
+    /* margin-top: 20px; */
+    border: none;
+    border-radius: 18px;
+    transition: background-color 1.5s;
+    text-align: center;
+    /* font-size: 15px; */
+    /* margin-left: 90px; */
+}
+
+.nav-buttons:hover {
+    background-color: #3B855B;
+    color: #ffffff;
+    padding: 5px 8px;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.leftSection {
+    margin-top: 18%;
+    margin-left: 12%;
+}
+
+.leftSection h1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 800;
+    font-size: 70px;
+    width: 60%;
+}
+
+.leftSection p {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 200;
+    margin-top: 10px;
+}
+
+.leftSection #learn-more {
+    background-color: #D5D5D3;
+    color: #1f1f1f;
+    padding: 20px 40px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 20px;
+    border: none;
+    border-radius: 18px;
+    transition: background-color 1s;
+}
+
+#learn-more:hover {
+    background-color: #3B855B;
+    color: #ffffff;
+}
+
+.rightSection {
+    /* display: block; */
+    /* margin-right: 5%; */
+    /* padding-right: 10%; */
+    width: 30%;
+    margin-top: 4%;
+    margin-right: 10%;
+    transition: border 2s;
+}
+
+/* .rightSection :hover {
+    border-color: #3B855B;
+    border-radius: 20px;
+    border-style: solid;
+} */
