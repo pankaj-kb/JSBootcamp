@@ -46,3 +46,16 @@ let myObject = {
 console.log(myObject);
 
 console.log(myObject.hello + " using '.' to get an specific value");
+
+// If else 
+
+let score = 99;
+let playerStatus = " ";
+
+if (score >= 100) {
+    playerStatus = "Century";
+} else {
+    playerStatus = "Under 100";
+}
+
+console.log(playerStatus)
