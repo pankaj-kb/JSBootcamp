@@ -46,8 +46,16 @@ for (let i = 0; i < ages.length - 1; i++) {
     average = total / ages.length;
 }
 
+let range = maxAge - minAge;
+
+let abs1 = (minAge - average);
+let abs2 = (maxAge - average);
+
 console.log(ages)
 console.log(maxAge)
 console.log(minAge)
 console.log(medianAge)
 console.log(average)
+console.log(range)
+console.log(Math.abs(abs1))
+console.log(Math.abs(abs2))
