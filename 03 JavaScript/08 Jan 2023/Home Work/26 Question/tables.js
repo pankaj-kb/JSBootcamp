@@ -11,4 +11,4 @@ function writeTable(number) {
     return "Table Complete"
 }
 
-console.log(writeTable(2))
+console.log(writeTable(10))
