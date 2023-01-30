@@ -1,0 +1,2 @@
+1. Remove Child with DOM.
+2. Make small tasks with event handlers
