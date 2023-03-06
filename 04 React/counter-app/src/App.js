@@ -3,15 +3,15 @@ import "./App.css";
 
 function Counter() {
   const [count, setCount] = useState(0);
-  const [inLimit, setInLimit] = useState(0);
-  const [deLimit, setDeLimit] = useState(0);
+  const [inLimit, setInLimit] = useState("");
+  const [deLimit, setDeLimit] = useState("");
 
   const handleInLimit = (e) => {
-    setInLimit(e.target.value);
+    setInLimit(inLimit > deLimit ? e.target.value : 0);
   };
 
   const handleDeLimit = (e) => {
-    setDeLimit(e.target.value);
+    setDeLimit(deLimit < inLimit ? e.target.value : -1);
   };
 
   const handleIncrease = (e) => {
@@ -37,7 +37,7 @@ function Counter() {
       <input
         type="number"
         placeholder="Enter Decrese Limit"
-        value={deLimit}
+        value= {deLimit}
         onChange={handleDeLimit}
       />
     </div>
