@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* align-content: center; */
+}
+
+button {
+  justify-content: center;
+  align-items: center;
+}
+
+.counter {
+  display: flex;
+  margin-top: 50vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  /* background-color: #fff; */
+
+}
