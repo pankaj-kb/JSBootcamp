@@ -1,22 +1,58 @@
-body {
+.App {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* align-content: center; */
-}
-
-button {
-  justify-content: center;
-  align-items: center;
+  height: 100vh;
 }
 
 .counter {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   display: flex;
-  margin-top: 50vh;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  gap: 20px;
-  /* background-color: #fff; */
-
+  padding: 32px;
 }
+
+h1 {
+  font-size: 48px;
+  margin: 0;
+  margin-bottom: 16px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+button {
+  background-color: #2196f3;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px 16px;
+  margin: 8px;
+}
+
+input {
+  border: none;
+  border-bottom: 2px solid #2196f3;
+  border-radius: 4px;
+  font-size: 16px;
+  margin: 8px;
+  padding: 8px;
+  text-align: center;
+  width: 200px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #1976d2;
+}
+
+input::placeholder {
+  color: #bdbdbd;
+  font-style: italic;
+}
+
