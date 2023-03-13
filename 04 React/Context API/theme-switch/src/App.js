@@ -1,11 +1,16 @@
-import './App.css';
+import { ThemeProvider } from "./ThemeProvider";
+import { ThemeSwitcher } from "./ThemeSwitcher";
+import { ThemeContext } from "./context/ThemeContext";
+import { useContext } from "react";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-
-    </div>
+    <ThemeProvider>
+      <div className="App">
+        <h1>Let's Switch</h1>
+        <ThemeSwitcher />
+        <button>Hello</button>
+      </div>
+    </ThemeProvider>
   );
 }
-
-export default App;
