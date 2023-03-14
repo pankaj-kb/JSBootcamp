@@ -1,0 +1,27 @@
+/* Apply a global font family */
+body {
+    font-family: sans-serif;
+  }
+  
+  /* Remove default margins and padding */
+  body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a default font size and line-height */
+  html {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  
+  /* Add styles for links */
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
