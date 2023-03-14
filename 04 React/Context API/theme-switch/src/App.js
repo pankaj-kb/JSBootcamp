@@ -1,14 +1,16 @@
 import "./App.css";
-import { ThemeProvider } from "./ThemeProvider";
-import { ThemeSwitcher } from "./ThemeSwitcher";
-import { ThemeContext } from "./ThemeContext";
-import { useContext } from "react";
+import ThemeProvider from "./ThemeProvider";
+import ThemeButton from "./ThemeButton";
 
-export default function App() {
-  const { theme } = useContext(ThemeContext);
+const App = () => {
   return (
-    <ThemeProvider>
-      <ThemeSwitcher />
-    </ThemeProvider>
+    <div className="App">
+      <ThemeProvider>
+        <ThemeButton />
+        <p>Hello, world!</p>
+      </ThemeProvider>
+    </div>
   );
-}
+};
+
+export default App;

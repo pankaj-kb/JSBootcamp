@@ -1,16 +1,16 @@
-import { useEffect, useState } from "react";
+import { useState, useEffect } from "react";
 import ThemeContext from "./ThemeContext";
 
-function ThemeProvider(props) {
-  const [theme, setTheme] = useState('light');
+const ThemeProvider = (props) => {
+  const [theme, setTheme] = useState("light");
 
   const toggleTheme = () => {
-    setTheme(theme === 'light' ? 'dark' : 'light');
+    setTheme(theme === "light" ? "dark" : "light");
   };
 
   useEffect(() => {
-    const app = document.querySelector('.App');
-    app.classList.remove('light', 'dark');
+    const app = document.querySelector(".App");
+    app.classList.remove("light", "dark");
     app.classList.add(theme);
   }, [theme]);
 
@@ -19,6 +19,6 @@ function ThemeProvider(props) {
       {props.children}
     </ThemeContext.Provider>
   );
-}
+};
 
 export default ThemeProvider;
